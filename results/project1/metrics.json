@@ -1,0 +1,77 @@
+{
+  "sample_count": 300,
+  "train_count": 240,
+  "test_count": 60,
+  "feature_count": 60,
+  "seed": 42,
+  "train_class_counts": [
+    120,
+    120
+  ],
+  "test_class_counts": [
+    30,
+    30
+  ],
+  "selected_model": "random_forest",
+  "cross_validation": {
+    "svm": {
+      "balanced_accuracy": 0.7041666666666666,
+      "parameters": {
+        "svc__C": 0.1,
+        "svc__gamma": "scale"
+      }
+    },
+    "random_forest": {
+      "balanced_accuracy": 0.7208333333333333,
+      "parameters": {
+        "randomforestclassifier__max_depth": 8,
+        "randomforestclassifier__min_samples_leaf": 2
+      }
+    }
+  },
+  "accuracy": 0.7333333333333333,
+  "balanced_accuracy": 0.7333333333333334,
+  "melanoma_f1": 0.7037037037037037,
+  "roc_auc": 0.7866666666666666,
+  "average_precision": 0.8097359088846453,
+  "sensitivity": 0.6333333333333333,
+  "specificity": 0.8333333333333334,
+  "confusion_matrix": [
+    [
+      25,
+      5
+    ],
+    [
+      11,
+      19
+    ]
+  ],
+  "classification_report": {
+    "nevus": {
+      "precision": 0.6944444444444444,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.7575757575757576,
+      "support": 30.0
+    },
+    "melanoma": {
+      "precision": 0.7916666666666666,
+      "recall": 0.6333333333333333,
+      "f1-score": 0.7037037037037037,
+      "support": 30.0
+    },
+    "accuracy": 0.7333333333333333,
+    "macro avg": {
+      "precision": 0.7430555555555556,
+      "recall": 0.7333333333333334,
+      "f1-score": 0.7306397306397306,
+      "support": 60.0
+    },
+    "weighted avg": {
+      "precision": 0.7430555555555555,
+      "recall": 0.7333333333333333,
+      "f1-score": 0.7306397306397305,
+      "support": 60.0
+    }
+  },
+  "scope": "Balanced ISIC-2019 subset; lesion-disjoint splits where lesion_id is known; missing IDs are image-specific groups. Not patient-disjoint or a full-dataset benchmark."
+}

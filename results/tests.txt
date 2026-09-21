@@ -1,0 +1,16 @@
+test_archive_recovery_and_crc (test_algorithms.Algorithms.test_archive_recovery_and_crc) ... ok
+test_archive_traversal_rejected (test_algorithms.Algorithms.test_archive_traversal_rejected) ... ok
+test_circle_symmetry (test_algorithms.Algorithms.test_circle_symmetry) ... ok
+test_cycle_recovers_strong_ring (test_algorithms.Algorithms.test_cycle_recovers_strong_ring) ... ok
+test_cycle_rotation_and_reversal (test_algorithms.Algorithms.test_cycle_rotation_and_reversal) ... ok
+test_disconnected_cycle_flagged (test_algorithms.Algorithms.test_disconnected_cycle_flagged) ... ok
+test_gradual_crossing_and_missing_frame_reset (test_algorithms.Algorithms.test_gradual_crossing_and_missing_frame_reset) ... ok
+test_lane_assignment (test_algorithms.Algorithms.test_lane_assignment) ... ok
+test_marking_types (test_algorithms.Algorithms.test_marking_types) ... ok
+test_segmentation_with_dark_border_and_small_lesion (test_algorithms.Algorithms.test_segmentation_with_dark_border_and_small_lesion) ... ok
+test_texture_ignores_background (test_algorithms.Algorithms.test_texture_ignores_background) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.112s
+
+OK

@@ -1,0 +1,977 @@
+{
+  "road1.png": {
+    "boundaries": [
+      {
+        "a": -2.7620423909256075,
+        "b": 1745.5991613703231,
+        "kind": "solid",
+        "paint_coverage": 0.9422382671480144,
+        "support": 1556.387316587815,
+        "y_start": 353,
+        "y_end": 629
+      },
+      {
+        "a": -2.424761794463551,
+        "b": 1634.4458180229522,
+        "kind": "solid",
+        "paint_coverage": 1.0,
+        "support": 2420.6288610001498,
+        "y_start": 365,
+        "y_end": 629
+      },
+      {
+        "a": -0.8156267070931141,
+        "b": 1101.1884808613286,
+        "kind": "dashed",
+        "paint_coverage": 0.5,
+        "support": 995.2392878039423,
+        "y_start": 333,
+        "y_end": 629
+      },
+      {
+        "a": 0.6522607486439207,
+        "b": 623.0378056782387,
+        "kind": "solid",
+        "paint_coverage": 1.0,
+        "support": 1484.7500424795442,
+        "y_start": 356,
+        "y_end": 629
+      }
+    ],
+    "lanes": [
+      {
+        "id": 1,
+        "left": {
+          "a": -2.7620423909256075,
+          "b": 1745.5991613703231,
+          "kind": "solid",
+          "paint_coverage": 0.9422382671480144,
+          "support": 1556.387316587815,
+          "y_start": 353,
+          "y_end": 629
+        },
+        "right": {
+          "a": -2.424761794463551,
+          "b": 1634.4458180229522,
+          "kind": "solid",
+          "paint_coverage": 1.0,
+          "support": 2420.6288610001498,
+          "y_start": 365,
+          "y_end": 629
+        }
+      },
+      {
+        "id": 2,
+        "left": {
+          "a": -2.424761794463551,
+          "b": 1634.4458180229522,
+          "kind": "solid",
+          "paint_coverage": 1.0,
+          "support": 2420.6288610001498,
+          "y_start": 365,
+          "y_end": 629
+        },
+        "right": {
+          "a": -0.8156267070931141,
+          "b": 1101.1884808613286,
+          "kind": "dashed",
+          "paint_coverage": 0.5,
+          "support": 995.2392878039423,
+          "y_start": 333,
+          "y_end": 629
+        }
+      },
+      {
+        "id": 3,
+        "left": {
+          "a": -0.8156267070931141,
+          "b": 1101.1884808613286,
+          "kind": "dashed",
+          "paint_coverage": 0.5,
+          "support": 995.2392878039423,
+          "y_start": 333,
+          "y_end": 629
+        },
+        "right": {
+          "a": 0.6522607486439207,
+          "b": 623.0378056782387,
+          "kind": "solid",
+          "paint_coverage": 1.0,
+          "support": 1484.7500424795442,
+          "y_start": 356,
+          "y_end": 629
+        }
+      }
+    ],
+    "ego_lane_id": 2,
+    "vehicles": [],
+    "near_boundary_alert": true,
+    "possible_crossing": null,
+    "camera_assumption": "centered, forward-facing; ego lane is unavailable for elevated roadside views",
+    "distance_note": "uncalibrated height proxy"
+  },
+  "road1b.png": {
+    "boundaries": [
+      {
+        "a": -2.677630007103144,
+        "b": 1696.7706961203446,
+        "kind": "solid",
+        "paint_coverage": 0.8652482269503546,
+        "support": 2593.741772258164,
+        "y_start": 348,
+        "y_end": 629
+      },
+      {
+        "a": -2.4205735322591586,
+        "b": 1630.2682334532678,
+        "kind": "solid",
+        "paint_coverage": 1.0,
+        "support": 2280.933399264533,
+        "y_start": 367,
+        "y_end": 629
+      },
+      {
+        "a": -0.7950805014868444,
+        "b": 1092.7960110205247,
+        "kind": "dashed",
+        "paint_coverage": 0.5581395348837209,
+        "support": 983.8370218046613,
+        "y_start": 367,
+        "y_end": 629
+      },
+      {
+        "a": 0.6628922845189945,
+        "b": 617.6559930359008,
+        "kind": "solid",
+        "paint_coverage": 1.0,
+        "support": 1509.8645154951694,
+        "y_start": 352,
+        "y_end": 629
+      }
+    ],
+    "lanes": [
+      {
+        "id": 1,
+        "left": {
+          "a": -2.677630007103144,
+          "b": 1696.7706961203446,
+          "kind": "solid",
+          "paint_coverage": 0.8652482269503546,
+          "support": 2593.741772258164,
+          "y_start": 348,
+          "y_end": 629
+        },
+        "right": {
+          "a": -2.4205735322591586,
+          "b": 1630.2682334532678,
+          "kind": "solid",
+          "paint_coverage": 1.0,
+          "support": 2280.933399264533,
+          "y_start": 367,
+          "y_end": 629
+        }
+      },
+      {
+        "id": 2,
+        "left": {
+          "a": -2.4205735322591586,
+          "b": 1630.2682334532678,
+          "kind": "solid",
+          "paint_coverage": 1.0,
+          "support": 2280.933399264533,
+          "y_start": 367,
+          "y_end": 629
+        },
+        "right": {
+          "a": -0.7950805014868444,
+          "b": 1092.7960110205247,
+          "kind": "dashed",
+          "paint_coverage": 0.5581395348837209,
+          "support": 983.8370218046613,
+          "y_start": 367,
+          "y_end": 629
+        }
+      },
+      {
+        "id": 3,
+        "left": {
+          "a": -0.7950805014868444,
+          "b": 1092.7960110205247,
+          "kind": "dashed",
+          "paint_coverage": 0.5581395348837209,
+          "support": 983.8370218046613,
+          "y_start": 367,
+          "y_end": 629
+        },
+        "right": {
+          "a": 0.6628922845189945,
+          "b": 617.6559930359008,
+          "kind": "solid",
+          "paint_coverage": 1.0,
+          "support": 1509.8645154951694,
+          "y_start": 352,
+          "y_end": 629
+        }
+      }
+    ],
+    "ego_lane_id": 2,
+    "vehicles": [],
+    "near_boundary_alert": true,
+    "possible_crossing": null,
+    "camera_assumption": "centered, forward-facing; ego lane is unavailable for elevated roadside views",
+    "distance_note": "uncalibrated height proxy"
+  },
+  "road2.jpg": {
+    "boundaries": [
+      {
+        "a": -1.5454545454545423,
+        "b": 750.636363636363,
+        "kind": "unknown",
+        "paint_coverage": 0.0,
+        "support": 60.74537019394976,
+        "y_start": 254,
+        "y_end": 540
+      },
+      {
+        "a": -1.4295299163446407,
+        "b": 725.6319164295719,
+        "kind": "dashed",
+        "paint_coverage": 0.6,
+        "support": 254.70927746386997,
+        "y_start": 254,
+        "y_end": 540
+      },
+      {
+        "a": -0.321372387706636,
+        "b": 536.7118698974776,
+        "kind": "solid",
+        "paint_coverage": 1.0,
+        "support": 1039.758582633632,
+        "y_start": 254,
+        "y_end": 540
+      },
+      {
+        "a": -0.05069959659916648,
+        "b": 490.9573609253922,
+        "kind": "solid",
+        "paint_coverage": 1.0,
+        "support": 1078.5057371873118,
+        "y_start": 254,
+        "y_end": 540
+      },
+      {
+        "a": 0.13870363138799527,
+        "b": 451.9362587182696,
+        "kind": "solid",
+        "paint_coverage": 0.9446494464944649,
+        "support": 794.0044643403908,
+        "y_start": 254,
+        "y_end": 540
+      },
+      {
+        "a": 0.3856537874615116,
+        "b": 412.1673363612557,
+        "kind": "solid",
+        "paint_coverage": 1.0,
+        "support": 944.8313084421956,
+        "y_start": 254,
+        "y_end": 540
+      }
+    ],
+    "lanes": [
+      {
+        "id": 1,
+        "left": {
+          "a": -1.4295299163446407,
+          "b": 725.6319164295719,
+          "kind": "dashed",
+          "paint_coverage": 0.6,
+          "support": 254.70927746386997,
+          "y_start": 254,
+          "y_end": 540
+        },
+        "right": {
+          "a": -0.321372387706636,
+          "b": 536.7118698974776,
+          "kind": "solid",
+          "paint_coverage": 1.0,
+          "support": 1039.758582633632,
+          "y_start": 254,
+          "y_end": 540
+        }
+      },
+      {
+        "id": 2,
+        "left": {
+          "a": -0.321372387706636,
+          "b": 536.7118698974776,
+          "kind": "solid",
+          "paint_coverage": 1.0,
+          "support": 1039.758582633632,
+          "y_start": 254,
+          "y_end": 540
+        },
+        "right": {
+          "a": -0.05069959659916648,
+          "b": 490.9573609253922,
+          "kind": "solid",
+          "paint_coverage": 1.0,
+          "support": 1078.5057371873118,
+          "y_start": 254,
+          "y_end": 540
+        }
+      },
+      {
+        "id": 3,
+        "left": {
+          "a": 0.13870363138799527,
+          "b": 451.9362587182696,
+          "kind": "solid",
+          "paint_coverage": 0.9446494464944649,
+          "support": 794.0044643403908,
+          "y_start": 254,
+          "y_end": 540
+        },
+        "right": {
+          "a": 0.3856537874615116,
+          "b": 412.1673363612557,
+          "kind": "solid",
+          "paint_coverage": 1.0,
+          "support": 944.8313084421956,
+          "y_start": 254,
+          "y_end": 540
+        }
+      }
+    ],
+    "ego_lane_id": null,
+    "vehicles": [],
+    "near_boundary_alert": null,
+    "possible_crossing": null,
+    "camera_assumption": "centered, forward-facing; ego lane is unavailable for elevated roadside views",
+    "distance_note": "uncalibrated height proxy"
+  },
+  "road2b.jpg": {
+    "boundaries": [
+      {
+        "a": -1.4978613619390306,
+        "b": 740.7092810102516,
+        "kind": "unknown",
+        "paint_coverage": 0.04035874439461883,
+        "support": 213.016692991519,
+        "y_start": 254,
+        "y_end": 540
+      },
+      {
+        "a": -0.3295309589571526,
+        "b": 538.715337162771,
+        "kind": "solid",
+        "paint_coverage": 1.0,
+        "support": 1194.4373109735236,
+        "y_start": 254,
+        "y_end": 540
+      },
+      {
+        "a": -0.03775745259037035,
+        "b": 486.7063130988322,
+        "kind": "solid",
+        "paint_coverage": 1.0,
+        "support": 1071.872375190378,
+        "y_start": 254,
+        "y_end": 540
+      },
+      {
+        "a": 0.11570773848097907,
+        "b": 458.79970753588583,
+        "kind": "solid",
+        "paint_coverage": 0.948339483394834,
+        "support": 510.36326300974423,
+        "y_start": 254,
+        "y_end": 540
+      },
+      {
+        "a": 0.36151455084762624,
+        "b": 418.63283460692975,
+        "kind": "solid",
+        "paint_coverage": 1.0,
+        "support": 946.3759827466109,
+        "y_start": 254,
+        "y_end": 540
+      }
+    ],
+    "lanes": [
+      {
+        "id": 1,
+        "left": {
+          "a": -1.4978613619390306,
+          "b": 740.7092810102516,
+          "kind": "unknown",
+          "paint_coverage": 0.04035874439461883,
+          "support": 213.016692991519,
+          "y_start": 254,
+          "y_end": 540
+        },
+        "right": {
+          "a": -0.3295309589571526,
+          "b": 538.715337162771,
+          "kind": "solid",
+          "paint_coverage": 1.0,
+          "support": 1194.4373109735236,
+          "y_start": 254,
+          "y_end": 540
+        }
+      },
+      {
+        "id": 2,
+        "left": {
+          "a": -0.3295309589571526,
+          "b": 538.715337162771,
+          "kind": "solid",
+          "paint_coverage": 1.0,
+          "support": 1194.4373109735236,
+          "y_start": 254,
+          "y_end": 540
+        },
+        "right": {
+          "a": -0.03775745259037035,
+          "b": 486.7063130988322,
+          "kind": "solid",
+          "paint_coverage": 1.0,
+          "support": 1071.872375190378,
+          "y_start": 254,
+          "y_end": 540
+        }
+      },
+      {
+        "id": 3,
+        "left": {
+          "a": 0.11570773848097907,
+          "b": 458.79970753588583,
+          "kind": "solid",
+          "paint_coverage": 0.948339483394834,
+          "support": 510.36326300974423,
+          "y_start": 254,
+          "y_end": 540
+        },
+        "right": {
+          "a": 0.36151455084762624,
+          "b": 418.63283460692975,
+          "kind": "solid",
+          "paint_coverage": 1.0,
+          "support": 946.3759827466109,
+          "y_start": 254,
+          "y_end": 540
+        }
+      }
+    ],
+    "ego_lane_id": null,
+    "vehicles": [],
+    "near_boundary_alert": null,
+    "possible_crossing": null,
+    "camera_assumption": "centered, forward-facing; ego lane is unavailable for elevated roadside views",
+    "distance_note": "uncalibrated height proxy"
+  },
+  "road3.jpg": {
+    "boundaries": [
+      {
+        "a": -1.3861977438619768,
+        "b": 545.7166556071664,
+        "kind": "unknown",
+        "paint_coverage": 1.0,
+        "support": 146.24693378422538,
+        "y_start": 240,
+        "y_end": 307
+      },
+      {
+        "a": 1.4303261719648532,
+        "b": 11.82517136679395,
+        "kind": "dashed",
+        "paint_coverage": 0.8468468468468469,
+        "support": 276.9604144365583,
+        "y_start": 147,
+        "y_end": 307
+      }
+    ],
+    "lanes": [
+      {
+        "id": 1,
+        "left": {
+          "a": -1.3861977438619768,
+          "b": 545.7166556071664,
+          "kind": "unknown",
+          "paint_coverage": 1.0,
+          "support": 146.24693378422538,
+          "y_start": 240,
+          "y_end": 307
+        },
+        "right": {
+          "a": 1.4303261719648532,
+          "b": 11.82517136679395,
+          "kind": "dashed",
+          "paint_coverage": 0.8468468468468469,
+          "support": 276.9604144365583,
+          "y_start": 147,
+          "y_end": 307
+        }
+      }
+    ],
+    "ego_lane_id": 1,
+    "vehicles": [
+      {
+        "box": [
+          318,
+          186,
+          30,
+          24
+        ],
+        "confidence": 0.3963519036769867,
+        "class": "car",
+        "lane_id": null,
+        "image_height_fraction": 0.07792207792207792,
+        "close_proxy": false,
+        "close_vehicle_alert": false,
+        "distance_m_estimate": null,
+        "ahead_close_alert": false
+      }
+    ],
+    "near_boundary_alert": false,
+    "possible_crossing": null,
+    "camera_assumption": "centered, forward-facing; ego lane is unavailable for elevated roadside views",
+    "distance_note": "uncalibrated height proxy"
+  },
+  "road3b.jpg": {
+    "boundaries": [
+      {
+        "a": -1.4407467532467528,
+        "b": 560.3620129870128,
+        "kind": "unknown",
+        "paint_coverage": 1.0,
+        "support": 123.722457998351,
+        "y_start": 240,
+        "y_end": 307
+      },
+      {
+        "a": 1.1363636363636351,
+        "b": 83.13636363636395,
+        "kind": "unknown",
+        "paint_coverage": 1.0,
+        "support": 33.301651610693426,
+        "y_start": 241,
+        "y_end": 307
+      },
+      {
+        "a": 1.3411633109619678,
+        "b": 34.00894854586153,
+        "kind": "dashed",
+        "paint_coverage": 0.7288135593220338,
+        "support": 121.6059958357769,
+        "y_start": 206,
+        "y_end": 307
+      }
+    ],
+    "lanes": [
+      {
+        "id": 1,
+        "left": {
+          "a": -1.4407467532467528,
+          "b": 560.3620129870128,
+          "kind": "unknown",
+          "paint_coverage": 1.0,
+          "support": 123.722457998351,
+          "y_start": 240,
+          "y_end": 307
+        },
+        "right": {
+          "a": 1.1363636363636351,
+          "b": 83.13636363636395,
+          "kind": "unknown",
+          "paint_coverage": 1.0,
+          "support": 33.301651610693426,
+          "y_start": 241,
+          "y_end": 307
+        }
+      }
+    ],
+    "ego_lane_id": 1,
+    "vehicles": [],
+    "near_boundary_alert": false,
+    "possible_crossing": null,
+    "camera_assumption": "centered, forward-facing; ego lane is unavailable for elevated roadside views",
+    "distance_note": "uncalibrated height proxy"
+  },
+  "road4.png": {
+    "boundaries": [
+      {
+        "a": -0.46200862895493783,
+        "b": 256.27013422818794,
+        "kind": "solid",
+        "paint_coverage": 1.0,
+        "support": 141.37170481370464,
+        "y_start": 225,
+        "y_end": 272
+      },
+      {
+        "a": -0.02949852507374715,
+        "b": 300.87905604719776,
+        "kind": "dashed",
+        "paint_coverage": 0.3283582089552239,
+        "support": 51.0,
+        "y_start": 196,
+        "y_end": 272
+      },
+      {
+        "a": 0.26283953216822065,
+        "b": 384.5765012155203,
+        "kind": "dashed",
+        "paint_coverage": 0.3170731707317073,
+        "support": 133.7445552353366,
+        "y_start": 150,
+        "y_end": 272
+      },
+      {
+        "a": 0.697676761182195,
+        "b": 447.0503225529906,
+        "kind": "dashed",
+        "paint_coverage": 0.41044776119402987,
+        "support": 448.99850751254746,
+        "y_start": 128,
+        "y_end": 272
+      },
+      {
+        "a": 1.0833808543872256,
+        "b": 511.30783725485327,
+        "kind": "dashed",
+        "paint_coverage": 0.417910447761194,
+        "support": 277.6015883599121,
+        "y_start": 139,
+        "y_end": 272
+      },
+      {
+        "a": 1.7540471456972415,
+        "b": 603.8454984379443,
+        "kind": "unknown",
+        "paint_coverage": 0.051094890510948905,
+        "support": 121.3137253161969,
+        "y_start": 128,
+        "y_end": 272
+      }
+    ],
+    "lanes": [
+      {
+        "id": 1,
+        "left": {
+          "a": -0.46200862895493783,
+          "b": 256.27013422818794,
+          "kind": "solid",
+          "paint_coverage": 1.0,
+          "support": 141.37170481370464,
+          "y_start": 225,
+          "y_end": 272
+        },
+        "right": {
+          "a": -0.02949852507374715,
+          "b": 300.87905604719776,
+          "kind": "dashed",
+          "paint_coverage": 0.3283582089552239,
+          "support": 51.0,
+          "y_start": 196,
+          "y_end": 272
+        }
+      },
+      {
+        "id": 2,
+        "left": {
+          "a": -0.02949852507374715,
+          "b": 300.87905604719776,
+          "kind": "dashed",
+          "paint_coverage": 0.3283582089552239,
+          "support": 51.0,
+          "y_start": 196,
+          "y_end": 272
+        },
+        "right": {
+          "a": 0.26283953216822065,
+          "b": 384.5765012155203,
+          "kind": "dashed",
+          "paint_coverage": 0.3170731707317073,
+          "support": 133.7445552353366,
+          "y_start": 150,
+          "y_end": 272
+        }
+      },
+      {
+        "id": 3,
+        "left": {
+          "a": 0.26283953216822065,
+          "b": 384.5765012155203,
+          "kind": "dashed",
+          "paint_coverage": 0.3170731707317073,
+          "support": 133.7445552353366,
+          "y_start": 150,
+          "y_end": 272
+        },
+        "right": {
+          "a": 0.697676761182195,
+          "b": 447.0503225529906,
+          "kind": "dashed",
+          "paint_coverage": 0.41044776119402987,
+          "support": 448.99850751254746,
+          "y_start": 128,
+          "y_end": 272
+        }
+      },
+      {
+        "id": 4,
+        "left": {
+          "a": 0.697676761182195,
+          "b": 447.0503225529906,
+          "kind": "dashed",
+          "paint_coverage": 0.41044776119402987,
+          "support": 448.99850751254746,
+          "y_start": 128,
+          "y_end": 272
+        },
+        "right": {
+          "a": 1.0833808543872256,
+          "b": 511.30783725485327,
+          "kind": "dashed",
+          "paint_coverage": 0.417910447761194,
+          "support": 277.6015883599121,
+          "y_start": 139,
+          "y_end": 272
+        }
+      },
+      {
+        "id": 5,
+        "left": {
+          "a": 1.0833808543872256,
+          "b": 511.30783725485327,
+          "kind": "dashed",
+          "paint_coverage": 0.417910447761194,
+          "support": 277.6015883599121,
+          "y_start": 139,
+          "y_end": 272
+        },
+        "right": {
+          "a": 1.7540471456972415,
+          "b": 603.8454984379443,
+          "kind": "unknown",
+          "paint_coverage": 0.051094890510948905,
+          "support": 121.3137253161969,
+          "y_start": 128,
+          "y_end": 272
+        }
+      }
+    ],
+    "ego_lane_id": null,
+    "vehicles": [
+      {
+        "box": [
+          100,
+          0,
+          1150,
+          272
+        ],
+        "confidence": 0.546411395072937,
+        "class": "car",
+        "lane_id": 4,
+        "image_height_fraction": 0.9963369963369964,
+        "close_proxy": true,
+        "close_vehicle_alert": true,
+        "distance_m_estimate": null,
+        "ahead_close_alert": false
+      }
+    ],
+    "near_boundary_alert": null,
+    "possible_crossing": null,
+    "camera_assumption": "centered, forward-facing; ego lane is unavailable for elevated roadside views",
+    "distance_note": "uncalibrated height proxy"
+  },
+  "road4b.png": {
+    "boundaries": [
+      {
+        "a": -0.46200862895493783,
+        "b": 256.27013422818794,
+        "kind": "solid",
+        "paint_coverage": 1.0,
+        "support": 141.37170481370464,
+        "y_start": 225,
+        "y_end": 272
+      },
+      {
+        "a": -0.02949852507374715,
+        "b": 300.87905604719776,
+        "kind": "dashed",
+        "paint_coverage": 0.3283582089552239,
+        "support": 51.0,
+        "y_start": 196,
+        "y_end": 272
+      },
+      {
+        "a": 0.26283953216822065,
+        "b": 384.5765012155203,
+        "kind": "dashed",
+        "paint_coverage": 0.3170731707317073,
+        "support": 133.7445552353366,
+        "y_start": 150,
+        "y_end": 272
+      },
+      {
+        "a": 0.697676761182195,
+        "b": 447.0503225529906,
+        "kind": "dashed",
+        "paint_coverage": 0.41044776119402987,
+        "support": 448.99850751254746,
+        "y_start": 128,
+        "y_end": 272
+      },
+      {
+        "a": 1.0833808543872256,
+        "b": 511.30783725485327,
+        "kind": "dashed",
+        "paint_coverage": 0.417910447761194,
+        "support": 277.6015883599121,
+        "y_start": 139,
+        "y_end": 272
+      },
+      {
+        "a": 1.7540471456972415,
+        "b": 603.8454984379443,
+        "kind": "unknown",
+        "paint_coverage": 0.051094890510948905,
+        "support": 121.3137253161969,
+        "y_start": 128,
+        "y_end": 272
+      }
+    ],
+    "lanes": [
+      {
+        "id": 1,
+        "left": {
+          "a": -0.46200862895493783,
+          "b": 256.27013422818794,
+          "kind": "solid",
+          "paint_coverage": 1.0,
+          "support": 141.37170481370464,
+          "y_start": 225,
+          "y_end": 272
+        },
+        "right": {
+          "a": -0.02949852507374715,
+          "b": 300.87905604719776,
+          "kind": "dashed",
+          "paint_coverage": 0.3283582089552239,
+          "support": 51.0,
+          "y_start": 196,
+          "y_end": 272
+        }
+      },
+      {
+        "id": 2,
+        "left": {
+          "a": -0.02949852507374715,
+          "b": 300.87905604719776,
+          "kind": "dashed",
+          "paint_coverage": 0.3283582089552239,
+          "support": 51.0,
+          "y_start": 196,
+          "y_end": 272
+        },
+        "right": {
+          "a": 0.26283953216822065,
+          "b": 384.5765012155203,
+          "kind": "dashed",
+          "paint_coverage": 0.3170731707317073,
+          "support": 133.7445552353366,
+          "y_start": 150,
+          "y_end": 272
+        }
+      },
+      {
+        "id": 3,
+        "left": {
+          "a": 0.26283953216822065,
+          "b": 384.5765012155203,
+          "kind": "dashed",
+          "paint_coverage": 0.3170731707317073,
+          "support": 133.7445552353366,
+          "y_start": 150,
+          "y_end": 272
+        },
+        "right": {
+          "a": 0.697676761182195,
+          "b": 447.0503225529906,
+          "kind": "dashed",
+          "paint_coverage": 0.41044776119402987,
+          "support": 448.99850751254746,
+          "y_start": 128,
+          "y_end": 272
+        }
+      },
+      {
+        "id": 4,
+        "left": {
+          "a": 0.697676761182195,
+          "b": 447.0503225529906,
+          "kind": "dashed",
+          "paint_coverage": 0.41044776119402987,
+          "support": 448.99850751254746,
+          "y_start": 128,
+          "y_end": 272
+        },
+        "right": {
+          "a": 1.0833808543872256,
+          "b": 511.30783725485327,
+          "kind": "dashed",
+          "paint_coverage": 0.417910447761194,
+          "support": 277.6015883599121,
+          "y_start": 139,
+          "y_end": 272
+        }
+      },
+      {
+        "id": 5,
+        "left": {
+          "a": 1.0833808543872256,
+          "b": 511.30783725485327,
+          "kind": "dashed",
+          "paint_coverage": 0.417910447761194,
+          "support": 277.6015883599121,
+          "y_start": 139,
+          "y_end": 272
+        },
+        "right": {
+          "a": 1.7540471456972415,
+          "b": 603.8454984379443,
+          "kind": "unknown",
+          "paint_coverage": 0.051094890510948905,
+          "support": 121.3137253161969,
+          "y_start": 128,
+          "y_end": 272
+        }
+      }
+    ],
+    "ego_lane_id": null,
+    "vehicles": [
+      {
+        "box": [
+          455,
+          81,
+          823,
+          176
+        ],
+        "confidence": 0.573053240776062,
+        "class": "car",
+        "lane_id": 5,
+        "image_height_fraction": 0.6446886446886447,
+        "close_proxy": true,
+        "close_vehicle_alert": true,
+        "distance_m_estimate": null,
+        "ahead_close_alert": false
+      }
+    ],
+    "near_boundary_alert": null,
+    "possible_crossing": null,
+    "camera_assumption": "centered, forward-facing; ego lane is unavailable for elevated roadside views",
+    "distance_note": "uncalibrated height proxy"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "python": "3.12.14",
+  "seed": 42,
+  "data_sample": {
+    "MEL": 150,
+    "NV": 150
+  },
+  "road_images": 8,
+  "video1_frames": 90,
+  "upper_loop_RGB_frames_per_scene": 25,
+  "test_command": "python -m unittest discover -s tests -v",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "scikit-image": "0.26.0",
+    "opencv-python-headless": "4.11.0.86",
+    "matplotlib": "3.10.8",
+    "joblib": "1.5.3",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "ipykernel": "7.3.0"
+  },
+  "detector_file_sha256": {
+    "mobilenet_iter_73000.caffemodel": "52eed8be80522c152a17fb56740de705b79881bde1a167e0e747310523685fc7",
+    "deploy.prototxt": "2d180f723b3109e21f8287f6b3c691390d07b60eed998327cd3259ffa0e50608"
+  }
+}

@@ -1,0 +1,6 @@
+Saved classifier reload + raw-image inference agrees with recorded holdout prediction.
+All 300 images represented; train/test groups disjoint.
+easy: all 25 input frames appear once in the output cycle.
+challenging: all 25 input frames appear once in the output cycle.
+Annotated video decodes successfully: 90 frames.
+All eight course road images have saved outputs.
