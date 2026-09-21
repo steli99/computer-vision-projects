@@ -68,10 +68,3 @@ Project 3 also supports `--method orb`. Supply a verified JSON filename list wit
 - `docs/SOURCES.md`: data and model attribution.
 - `tests/`: synthetic checks for the underlying algorithms and safe extraction.
 
-Only load `classifier.joblib` from a trusted source; joblib is a Python serialization format. The saved model is an educational image-classification experiment, not a clinical diagnostic tool. The road alerts are image-space heuristics, not a driving safety system.
-
-## Add to GitHub
-
-Extract the ZIP, open `computer-vision-projects`, and upload its contents into your repository. Keep the directory structure. The raw `data/` folder is excluded by `.gitignore`. You can also open the folder in VS Code, initialize Git, commit, and publish to your chosen GitHub repository.
-
-If using the GitHub website, drag the extracted folders/files into **Add file → Upload files**, then commit. Upload the extracted contents rather than only the ZIP so GitHub displays the code, notebooks and README.
