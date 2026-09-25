@@ -1,8 +1,4 @@
-"""Execute the plain-Python notebooks in-process, without Jupyter kernel sockets.
 
-This repository's cells contain ordinary Python (no magics or asynchronous cells).
-IPython captures actual display/stream outputs; errors stop execution immediately.
-"""
 from pathlib import Path
 import os
 import nbformat
